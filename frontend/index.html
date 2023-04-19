@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Manrope:wght@200&family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/96d27d3b97.js" crossorigin="anonymous"></script>
+    <title>Page de recrutement</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <H1>Page de recrutement Multivers</H1><br>
+            <p>Merci de l'interet accordé</p>
+            <img href="#" src="../images/logo.jpg"/>
+        </div>
+        
+    </header>
+     <main>
+        <section>
+            <form method="" action="">
+                <div class="part-1">
+                    <label>Date du jour<input type="date" name="Date"></label>  <p>Univers@gmail.com</p><br><br><br>
+                </div>
+               
+               <p class="part">
+                <label>Nom <input type="Nom" name="Nom" placeholder="Nom"></label><br><br>
+                <label>Entrez votre Prenom <input type="Prenom" name="Prenom" placeholder="Prenom"></label><br><br>
+
+                <label>Indiquer votre tranche d'âge <br>  <label for="medium25-30">25-30 ans <input type="radio" name="age" value="medium25-30" id="medium25-30"></label> <br>
+                <label for="medium30-35">30-35 ans <input type="radio" name="age" value="medium30-35" id="medium30-35"></label><br>
+                <label for="plus35">Plus de 35 ans <input type="radio" name="age" value="plus35" id="plus35"></label></label><br>
+                <br><br>
+            
+                  <!-- sexe -->
+              <label>Sexe <select id="sexe" name="sexe">
+                <option value="Homme">Homme</option>
+                <option value="Femme">Femme</option>
+              </select></label>
+              <br>
+              <label>Adresse: <input type="texte" name="adresse" placeholder="Adresse"></label> 
+               <!-- Langue parle -->
+
+               <label>Langue <select id="langue" name="langue">
+                <option value="Anglais">Anglais</option>
+                <option value="Francais">Francais</option>
+                <option value="Autres">Autres</option>
+              </select></label>
+               <br>
+               <label>Pays <select id="Pays" name="Pays">
+                <option value="Anglais">Senegal</option>
+                <option value="Francais">Cote d'ivoir</option>
+                <option value="Autres">Madagascar</option>
+                <option value="Autres">France</option>
+                <option value="Autres">Asie</option>
+              </select></label>
+            </p>
+              
+            <div class="pieces">
+                <input type="link" name="link" placeholder="lien Github">
+                <img src="" alt="photo" class="profil">
+                <input type="PDF" name="Document" placeholder="Votre CV"><br><br>
+            </div>
+               
+        <fieldset>
+            <legend>Competences</legend>
+
+            <div class="options">
+
+                
+                <p class="box">Frontend <br><br>
+                    <label>HTML & CSS bootstrap <input type="checkbox" name="Frontend" id="Frontend"></label> <br>
+                    <label>Javascript <input type="checkbox" name="Backend" id="Frontend"></label><br>
+                    <label>CMS  <input type="checkbox" name="Android" id="Frontend"></label><br>
+                    <label>Versioning, Git <input type="checkbox" name="Android" id="Frontend"></label><br>
+                    <label>Responsive design <input type="checkbox" name="Android" id="Frontend"></label><br>
+                <br><br>
+            </p>
+                <p class="box">Backend <br><br>
+                    <label>PHP  <input type="checkbox" name="Frontend" id="Frontend"></label><br>
+                    <label>Python <input type="checkbox" name="Backend" id="Backend"></label><br>
+                    <label>SQL,NoSQL,NodeJS <input type="checkbox" name="Android" id="Android mobile"></label><br>
+                    <label>Securite <input type="checkbox" name="Backend" id="Backend"></label><br>
+                    <label>Api <input type="checkbox" name="Backend" id="Backend"></label><br>
+                    <label>Versioning,Git <input type="checkbox" name="Backend" id="Backend"></label><br>
+                    
+                <br><br>
+            </p>
+                <p class="box"> Android Mobile <br><br>
+                    <label>Apple & Google  <input type="checkbox" name="Frontend" id="Frontend"></label><br>
+                    <label>HTML,CSS <input type="checkbox" name="Backend" id="Backend"></label><br>
+                    <label>Javascript <input type="checkbox" name="Android" id="Android mobile"></label><br>
+                    <label>JQuery <input type="checkbox" name="Android" id="Android mobile"></label><br>
+                    <label>Visual studio code <input type="checkbox" name="Android" id="Android mobile"></label><br>
+                <br><br>
+            </p>
+                <p class="box">Data Analyste <br><br>
+                    <label>SQL,NoSQL  <input type="checkbox" name="Frontend" id="Frontend"></label> <br>
+                    <label>Python, c++  <input type="checkbox" name="Backend" id="Backend"></label><br>
+                    <label>Tableau, Qlikview, PowerBI <input type="checkbox" name="Android" id="Android mobile"></label><br>
+                    <label>Unix,Windows <input type="checkbox" name="Android" id="Android mobile"></label><br>
+                    <label>Sauvegarde des donnees <input type="checkbox" name="Backend" id="Backend"></label><br>
+                <br>
+            </p>
+            
+                <p class="box">Choisissez votre niveau Fullstack<br><br>
+                <br>
+                <label>Junior </label><input type="radio" name="Fullstack" value="Junior" id="Junior"><br>
+                <label>Senior </label><input type="radio" name="Fullstack" value="Senior" id="Senior"><br>
+                <label>Expert </label> <input type="radio" name="Fullstack" value="Expert" id="Expert">
+                </p>
+                
+                <p class="box">Langage de developpement favoris<br><br>
+                    <br>
+                    <label>Javascript</label><input type="radio" name="Javascript" value="Javascript" id="Javascript"><br>
+                    <label>PHP</label><input type="radio" name="PHP" value="PHP" id="PHP"><br>
+                    <label>C++ & C</label> <input type="radio" name="C" value="C" id="C"><br>
+                    <label>Python</label> <input type="radio" name="Python" value="Python" id="Python"><br>
+                    <label>Java</label> <input type="radio" name="Java" value="Java" id="Java"><br>
+                    <label>Autres</label> <input type="radio" name="Autres" value="Autres" id="Autres"><br><br>
+                    </p>
+                </div>
+        </fieldset>
+         <button type="reset" value="Envoyer">Envoyer</button>  
+                
+                
+
+
+            </form>
+            <footer>
+                <p>Copyright<i class="fa-sharp fa-regular fa-copyright"></i> By Reg-creator</p>
+            </footer>
+        </section>
+     </main>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
